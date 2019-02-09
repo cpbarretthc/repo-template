@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#" <style media="screen">
+
+        </style>><b>CL</b></a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="damn2.html">Contact</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="form.html"><span class="glyphicon glyphicon-plus"></span> Submit Review</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <title>Class Form</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="well">
+  <h3>Class Review Form</h3>
+
+  <form action="/action_page.php">
+
+      <div class="CouseSelect">
+    <label for="sel1">Select a course to review:</label>
+    <select class="form-control" id="sel1">
+      <option>CMSC 106 - Introduction to Data Structures</option>
+      <option>POLS 171 - Introduction to Political Theory</option>
+      <option>SPAN 102 - Advanced Intermediate Spanish</option>
+
+    </select>
+  </div>
+
+    <div class="form-group">
+      <label for="classdifficulty">Course Difficulty</label>
+      <label class="radio-inline">
+        <input type="radio" name="optradio">1</label>
+      <label class="radio-inline">
+        <input type="radio" name="optradio">2</label>
+      <label class="radio-inline">
+        <input type="radio" name="optradio" checked>3</label>
+      <label class="radio-inline">
+        <input type="radio" name="optradio">4</label>
+      <label class="radio-inline">
+        <input type="radio" name="optradio">5</label>
+      </div>
+
+    <div>
+      <label for="classlimit">Class Size</label>
+      <input type="number" name="classnumber">
+    </div>
+
+
+    <div>
+      <label for="classpace">Course Enjoyment</label>
+      <label class="radio-inline">
+        <input type="radio" name="optradio1">1</label>
+      <label class="radio-inline">
+        <input type="radio" name="optradio1">2</label>
+      <label class="radio-inline">
+        <input type="radio" name="optradio1" checked>3</label>
+      <label class="radio-inline">
+        <input type="radio" name="optradio1">4</label>
+      <label class="radio-inline">
+        <input type="radio" name="optradio1">5</label>
+</div>
+    <div class="form-group">
+      <label for="comment">What was your general experience with the class?:</label>
+      <textarea class="form-control" rows="5" id="comment"> </textarea>
+    </div>
+    <div class="input-group">
+  <div class="input-group-prepend">
+    <span class="input-group-text" id="inputGroupFileAddon01">Upload</span>
+  </div>
+  <div class="custom-file">
+    <input type="file" class="custom-file-input" id="inputGroupFile01" aria-describedby="inputGroupFileAddon01">
+    <label class="custom-file-label" for="inputGroupFile01">Choose syllabus</label>
+  </div>
+</div>
+    <a href="homepageSwat.html"> <button type="submit" class="btn btn-default">Submit</button> </a>
+  </form>
+</div>
+</body>
+</html>
