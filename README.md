@@ -1,6 +1,5 @@
 # Classification : Tri-co Hackathon
-
-# Team Sample_Text
+Team Sample_Text
 
 ## Team Members
 
